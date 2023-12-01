@@ -4,10 +4,13 @@ import { getStorage} from "firebase/storage";
 import { getFirestore} from "firebase/firestore";
 
 
+
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 
+
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+console.log(import.meta.env.API_KEY)
 const firebaseConfig = {
   apiKey: process.env.API_KEY,
   authDomain: process.env.AUTH_DOMAIN,

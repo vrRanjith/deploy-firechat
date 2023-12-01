@@ -3,6 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import { AuthContextProvider } from './context/Context.jsx'
 import { ChatContextProvider } from './context/ChatContext.jsx'
+import dotenv from "dotenv";
+
+dotenv.config();
 
 ReactDOM.createRoot(document.getElementById('root')).render(
     <AuthContextProvider>
